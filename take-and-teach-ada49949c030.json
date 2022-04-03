@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "take-and-teach",
+  "private_key_id": "ada49949c030943e0496b0fefd266656615dd887",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQClwLYm413Fw384\noVdZgZpLnu1gEkcAkXBosJUOnUdM+zvcDqe0frjMjD7emnsueQo38pNyMeZgJIko\nzz7TlwhYuU6E0P7FDzaPKbl83UPhSU0nDNdEz0lLrcSo6BOFCOhvL54g6RqacNsq\nchrWhieqbGUTCVltv86xsP4blwXeMwjqEqYWKWxhLqTC/lkzU6GNp13u3Lh0mVTV\n3TWZE+nKnFVeKTmhw5gMH0mocDFwbAMGaWh52gmWe0q8Ngz5bFIpUm4OZfVFnyoT\nnzOcisc7rgvlFYyRQjS7SB5aLJYw2oNTpH+IcEUeycC/WytFidh6R35A+XW95joW\n6/8VVU3FAgMBAAECggEAFeMHCnEzyi/rkNZD0FaxQZ1dmeB/+KlmbvnWN4+kFnGx\nm01iGWQxpxeOcQV0EOm8ZDEyBWkPvbqaqUVdy0HNFoN4RJ3LmR4jpa7W8Tp5wqSp\nEpLQVXk2TqRw7J7MfmDJPxlKEkLFl7F29zle+tx3HhAMdAGO31OYXv/7OzhrdsYO\nz2mjgHeXTTkEfGVtg+1jYkEP36ASuEKLZ5LpNX5OXyPdRHVqls8YP227a2AgxYkY\n7XFpP2YcqWUvwKRsDVtM1LCRHldlckK8i44Vm3xBH2TxUtnpbIExYjC3XjukoGxm\ne/WD8d2MpJ+MEYV5nl/G/QxtrjQzCL3CElKb2qvA5wKBgQDgUy6sia2ZMAoVeTTZ\nPdP7xh1NvXe0FYC5avB0vWsn6bIXFJTvUgQhKyBTtYyaAXdo9iIfElWE+JVuVjCo\nAqTicd8XW6zMIbvqF3HmZiZ6o5+tkAKboluGxE17S9Fldzi0HuKuXwPyHnztWlb4\nVYOROWAVgkYuv34XWfO4zZEAvwKBgQC9KEiwrfkWip/pXmiTf1cNL1rdq7bDLBLc\n/4CVFYRJUVDSkuI0IMVQpynH13W+SO5s1gahCZ9tHk8jzOXpwWW0sWEcnvoH8bm9\n7YjrAxcitgBVygVAT1DsMcumEe4vD8ZbKLUPYHiSLwybWpjj3R1bR+wdpr9FVD2u\nSkTkbcCOewKBgQCRlqsGI9zdPQZuZVndXHlGQJAoMj2MTSBcNoGU4pK3Nr70p9D5\nebtgY4L5kSyNj0IWhxgiHl4OjN8+2wV9JSoqJUlq+X6uhX5WMZ0ksUtr8OHjXUG0\nDK1mS+UVjmF6fuP4Uss/7D69Vvgxe55SUf2vtRMdIo22LWYCdcjuOcxQNQKBgDSt\nYkjpuiN/6XapFwB0hv6iAHEZH+WMgZhQAzQBcPymC5cI1rvjoG+MjgMcSqr6ToO6\nus/gCSjvNuTma+TEOhmvCDdbQpAxziNJYkbobmn5O3CouPum2wdb+rW96pHql7fN\nR1cH66vyNFWTTl6utj00c1nylPOuuRqvji37LpO/AoGAXgW6ldwYDCg32ihVwynM\noAxcxAb3B9M25diyxfyyjP9N3KIV9yILRpI9sYLGniKj4oVIW5De4VuCyOOLOPPz\nby9Us/BMKzV2r5VEXKzlypR6hE0PpqfC1sCg7LuXNoaWPdxJ4V+xHG2BLIWDwK4E\nc2XXE8f/aLipqmRCo7G/ob8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "storageadmin@take-and-teach.iam.gserviceaccount.com",
+  "client_id": "106855691889900232888",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storageadmin%40take-and-teach.iam.gserviceaccount.com"
+}
