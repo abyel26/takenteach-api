@@ -1,1 +1,0 @@
-{"videoName":"Video 1","courseName":"Course Sample 1","price":"$.99","tag":"Tag2","summary":"In venenatis malesuada elit, vel auctor augue iaculis quis. Proin non lectus imperdiet, tincidunt est quis, vehicula mauris. Morbi nec dapibus odio. Vivamus in convallis magna, vel elementum elit. "}

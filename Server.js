@@ -36,10 +36,6 @@ app.use(fileUpload({
     createParentPath: true
 }));
 
-var ses = require('node-ses')
-    , client = ses.createClient({key: 'AKIAVS3STVKFEN45CVHZ', secret: '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',
-    amazon: 'https://email.us-east-2.amazonaws.com'});
-
 
 router.post('/ses' ,function(req, res) {
 
@@ -74,11 +70,6 @@ router.post('/ses' ,function(req, res) {
     mailContent.body.push(alternateEntity);
 
     var rawMessage = mailContent.toString();
-
-    //var arrayLength = req.body.listOfFiles[0].length;
-
-    //for (var i = 0; i < arrayLength; i++) {
-        //console.log(myStringArray[i]);
 
 
         var selectedFile = req.body.listOfFiles;
@@ -195,10 +186,6 @@ router.post('/user-sign-in', function(req, res) {//User sign in route.
     }
 });
 
-router.post('/userSearchVideo', function(req, res) {
-
-
-});
 
 
 router.post('/instructor-sign-up', function(req, res) { //Instructor sign up route.
@@ -276,8 +263,6 @@ router.post('/instructor-sign-in', function(req, res) {//Instructor sign in rout
                     }
                 });
             }
-
-
 
         });
 
@@ -398,10 +383,6 @@ router.get('/user-homepage', function(req, res) { //Route to get the user homepa
     }
 });
 
-router.get('/instructor-homepage', function(req, res) {
-
-
-});
 
 router.put('/instructor-get-courses', function(req, res) { //Route to get the user homepage.
 
@@ -725,7 +706,6 @@ router.put('/getCourseData', function(req, res) {//Route to search for course by
 
 router.post('/downloadTagsCoursesFiles', function(req, res) {//Receives a video from a client and uploads it to the GCP bucket in it's specific course.
 
-
     res.send({status: true, message: "Video is uploaded."})//Respond to client that the video is uploaded.
 
 });
@@ -745,55 +725,6 @@ router.post('/instructor-upload-video', function(req, res) {//Receives a video f
                 let price = req.body.price;
                 let tag = req.body.tag;
                 let summary = req.body.summary;
-
-
-                // //these lines check if a tag exists on the tags txt file and appends the tag otherwise.
-                // var tmpTag = tag + '\n';
-                // rl = readline('./tags.txt');
-                // rl.on('line', function(line, lineCount, byteCount) {
-                //     if(line == tag){
-                //         tmpTag = "";
-                //     }
-                // })
-                //     .on('error', function(e) {
-                //         // something went wrong
-                //     })
-                //
-                //     .on('end', function(e) {
-                //         // something went wrong
-                //
-                //         fs.appendFile('tags.txt', tmpTag, function(err) {
-                //             if(err) {
-                //                 return console.log(err);
-                //             }
-                //         });
-                //     });
-
-                // //these lines check if a course exists on the courses txt file and appends the course otherwise.
-                // var tmpCouse = courseName + '\n';
-                // rl = readline('./courses.txt');
-                // rl.on('line', function(line, lineCount, byteCount) {
-                //     if(line == courseName){
-                //         tmpCouse = "";
-                //     }
-                // })
-                //     .on('error', function(e) {
-                //         // something went wrong
-                //         console.log(e);
-                //     })
-                //
-                //     .on('end', function(e) {
-                //         // something went wrong
-                //         console.log(e);
-                //
-                //         fs.appendFile('courses.txt', tmpCouse, function(err) {
-                //             if(err) {
-                //                 return console.log(err);
-                //             }
-                //         });
-                //     });
-
-
 
                 var videoObj = {videoName: videoName, courseName: courseName, price: price, tag: tag, summary: summary};
                 var data = JSON.stringify(videoObj);
@@ -818,9 +749,6 @@ router.post('/instructor-upload-video', function(req, res) {//Receives a video f
                     callback(txtFilePath, gcpTxt);//Upload file.
 
                 }, 1000);
-                // fs.unlinkSync(filepath);//delete created file
-                // fs.unlinkSync(txtFilePath);
-                //
 
             }
 
@@ -836,8 +764,6 @@ router.post('/instructor-upload-video', function(req, res) {//Receives a video f
         res.status(500).send(err);
     }
 });
-
-
 
 
 router.use('/*', function (req, res) {

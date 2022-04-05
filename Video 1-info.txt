@@ -1,1 +1,0 @@
-{"videoName":"Video 1","courseName":"Course Sample 1","price":"$1.50","tag":"some tag","summary":"Some summary"}
