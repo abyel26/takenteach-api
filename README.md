@@ -5,7 +5,7 @@ alt="IMAGE ALT TEXT HERE" width="248"  border="248"/></a>
  </p>
  
 * This API is developed using **NodeJS, ExpressJS, and MongoDB**. 
-* It uses JWT tokenization to authorize users. 
+* It utilizes JWT tokenization to authorize users. 
 * The media, such as videos, is stored on the Google Cloud platform but processed on the API before it is uploaded. 
 
 
