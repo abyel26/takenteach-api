@@ -1,4 +1,4 @@
-# [API for Take-N-Teach Learning Platform](https://engineering.ucdenver.edu/current-students/capstone-expo/archived-expos/sp21/csci2)
+# [API For Take-N-Teach Learning Platform](https://engineering.ucdenver.edu/current-students/capstone-expo/archived-expos/sp21/csci2)
 <p align="center">
 <a href="https://engineering.ucdenver.edu/current-students/capstone-expo/archived-expos/sp21/csci2" target="_blank"><img src="thumbnail_image.png" 
 alt="IMAGE ALT TEXT HERE" width="248"  border="248"/></a>
@@ -14,14 +14,6 @@ Links
 * **Project Showcase:** [https://engineering.ucdenver.edu/current-students/capstone-expo/archived-expos/sp21/csci2](https://engineering.ucdenver.edu/current-students/capstone-expo/archived-expos/sp21/csci2
 )
 
-npm modules needed:
-express
-passport
-cors
-body-parser
-dotenv
-bcrypt
-@google-cloud/storage
 
 
 
