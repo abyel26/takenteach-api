@@ -1,4 +1,4 @@
-# [API For Take-N-Teach Learning Platform](https://engineering.ucdenver.edu/current-students/capstone-expo/archived-expos/sp21/csci2)
+# [REST API For Take-N-Teach Learning Platform](https://engineering.ucdenver.edu/current-students/capstone-expo/archived-expos/sp21/csci2)
 <p align="center">
 <a href="https://engineering.ucdenver.edu/current-students/capstone-expo/archived-expos/sp21/csci2" target="_blank"><img src="thumbnail_image.png" 
 alt="IMAGE ALT TEXT HERE" width="248"  border="248"/></a>
